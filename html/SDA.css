@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head {
+    height: 15vh;
+    background-color: white;
+    color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.head .logo {
+    padding: 20px;
+    color: #26312f;
+}
+
+#back {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#back a {
+    background-color: #26312f;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+
+/* body content */
+
+.contents {
+    max-height: 600px;
+    margin: 100px;
+    background-color: #CCDBDC;
+    border-radius: 50px;
+}
+
+.form-holder {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.ico {
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+
+.Nform-control {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.btn {
+    background-color: rgb(2, 49, 49);
+    border-color: black;
+}
+
+.btn:hover {
+    color: #0dbace;
+    background-color: rgb(2, 49, 49);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* login footer */
+
+footer {
+    min-height: 400px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(18, 26, 49);
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f12 i {
+    margin: 0 4px 0 4px;
+}
+
+.FO {
+    font-size: 18px;
+}
+
+.FO ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.FO ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.f2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.FO h3 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.f3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.f32 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FO ul li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .5s;
+}
+
+.FO ul li:hover::after {
+    width: 50%;
+    transition: width .5s;
+}
+
+
+/* created page */
+
+#created {
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}

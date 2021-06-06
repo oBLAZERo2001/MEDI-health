@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: sandybrown;
+}
+
+.head {
+    height: 30px;
+    color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.head .logo {
+    padding: 20px;
+    color: #26312f;
+}
+
+#back {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#back a {
+    background-color: #26312f;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.btn a {
+    background-color: blueviolet;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.btn-2 {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.btn-2 a {
+    background-color: rgb(226, 162, 43);
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.btn-2 a:hover {
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+.btn-3 {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.btn-3 a {
+    background-color: rgb(226, 43, 195);
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.btn-3 a:hover {
+    background-color: rgba(255, 105, 180, 1);
+}
+
+.btn-4 a {
+    background-color: rgb(226, 64, 43);
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.btn-4 a:hover {
+    background-color: rgba(68, 2, 48, .6);
+}
+
+
+/* body content */
+
+.P {
+    margin: 100px;
+    padding-bottom: 60px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.form-holder {
+    margin: 100px;
+}
+
+.P h3 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+/* login footer */
+
+footer {
+    min-height: 400px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(18, 26, 49);
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f12 i {
+    margin: 0 4px 0 4px;
+}
+
+.FO {
+    font-size: 18px;
+}
+
+.FO ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.FO ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.f2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.FO h3 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.f3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.f32 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FO ul li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .5s;
+}
+
+.FO ul li:hover::after {
+    width: 50%;
+    transition: width .5s;
+}
